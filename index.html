@@ -20,13 +20,15 @@
     <main>
         <!--Header-Section-->
         <section>
-        <div class=" relative flex justify-center items-center pt-14">
-            <img src="Images/1.png" alt="">
-        </div>
-        <div class="cursor-pointer mx-96 absolute top-48 bottom-0 transform -translte-x-1/2 -translte-y-1/2  mr-28 items-center flex justify-start ">
-            <button class="rounded-full bg-black text-white text-base font-medium px-2"><</button>
-            <button class="rounded-full bg-black text-white text-base font-medium px-2">></button>
-        </div>
+        <div class=" lg:carousel flex justify-center">
+            <div id="item1" class="carousel-item ">
+              <img src="Images/1.png" class="" />
+            </div> 
+          </div> 
+          <div class="flex justify-center  py-2 gap-2 absolute top-96 mt-11 ml-96">
+            <a href="#item1" class="rounded-full bg-black text-white pl-5 pr-5"><</a> 
+            <a href="#item2" class="rounded-full bg-black text-white pl-5 pr-5">></a> 
+          </div>
         </section>
         <!--Header-ending-->
         <!--Professional-Hockey's-club-section-->
@@ -67,7 +69,7 @@
             </div>
             <div class="flex justify-center gap-10">
                 <div class=" image-full px-5 ">
-                    <figure><img src="Images/2.png" alt="Shoes" /></figure>
+                    <figure><img src="Images/2.png" alt="Shoes" class="h-96"/></figure>
                     <div class="">
                       <h2 class="text-3xl font-extrabold absolute top-full mt-72 text-white">Junior Program</h2>
                       <p class="absolute top-full mt-96 text-white">This program is organised for our junior students so that they <br>can practice their skills on the field .If you are eager to <br>learn hockey ,if you are beginner and finally if you are <br>want to practice your skills in the field.Please wait no <br>more time and click that red button below!</p>
@@ -78,7 +80,7 @@
                     </div>
                   </div>
                   <div class=" image-full px-5 ">
-                    <figure><img src="Images/3.png" alt="" /></figure>
+                    <figure><img src="Images/3.png" alt="" class="h-96"/></figure>
                     <div class="">
                       <h2 class="text-3xl font-extrabold absolute top-full mt-72 text-white">Teenager Program</h2>
                       <p class="absolute top-full mt-96 text-white">In this program our teenage players show their skills and compete <br>against other academy's .There are three rounds in this event each <br>academy will fight each other and reach the finals.If any <br>teenager wants a challenge they are welcome to press the red button below!</p>
@@ -93,7 +95,7 @@
                 <div class=" image-full px-5 ">
                     <figure><img src="Images/4.png" alt="Shoes" /></figure>
                     <div class="">
-                      <h2 class="text-3xl font-extrabold absolute -mt-96 text-white">Professional Program</h2>
+                      <h2 class="text-3xl font-extrabold absolute -mt-96  text-white">Professional Program</h2>
                       <p class="absolute -mt-80 text-white">This program is organised for our junior students so that they <br>can practice their skills on the field .If you are eager to <br>learn hockey ,if you are beginner and finally if you are <br>want to practice your skills in the field.Please wait no <br>more time and click that red button below!</p>
                       <div class="card-actions justify-end absolute top-full mt-96 pt-32 text-white">
                         <button class="bg-red-500  justify-start px-4 py-2.5 rounded-md font-bold text-xl ml-5 text-white mt-96 " >Register Now!</button>
@@ -108,9 +110,29 @@
                 <p class="font-medium text-base text-center pb-10">Our website also provides products.Please enjoy our newest <br>stocks of products.</p>
             </div>
             <div class="grid  grid-cols-2 grid-rows-2 items-center pl-96">
-                <div>
+                <div class="bg-gray-100 mr-40 rounded-lg pb-16">
                     <div class="flex flex-row items-center">
                       <img src="Images/5.png" class="max-w-sm rounded-lg shadow-2xl" />
+                      <div class="pb-10">
+                        <div class="flex">
+                            <img src="Images/Frame.png" alt="">
+                            <p>5.0</p>
+                            <img src="Images/Frame1.png" alt="" class="ml-5">
+                            <p>200</p>
+                        </div>
+                        <h6 class="text-xl font-bold">World Cup Flags Football</h6>
+                        <p class="py-6">World Cup flag football with picture of <br>the kind of flags you want</p>
+                        <div class="flex">
+                            <p class="font-extrabold text-lg text-red-500 -mt-5">Price - $22.00</p>
+                        <img src="Images/Frame2.svg" alt="" class="ml-5 -mt-5">
+                        <p class=" -mt-5">Delivery Fee : Free</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bg-gray-100 mr-40 rounded-lg ">
+                    <div class="flex flex-row items-center">
+                      <img src="Images/6.png" class="max-w-sm rounded-lg shadow-2xl" />
                       <div class="pb-20">
                         <div class="flex">
                             <img src="Images/Frame.png" alt="">
@@ -128,30 +150,10 @@
                       </div>
                     </div>
                   </div>
-                  <div>
-                    <div class="flex flex-row items-center">
-                      <img src="Images/6.png" class="max-w-sm rounded-lg shadow-2xl" />
-                      <div class="">
-                        <div class="flex">
-                            <img src="Images/Frame.png" alt="">
-                            <p>5.0</p>
-                            <img src="Images/Frame1.png" alt="" class="ml-5">
-                            <p>200</p>
-                        </div>
-                        <h6 class="text-xl font-bold">World Cup Flags Football</h6>
-                        <p class="py-6">World Cup flag football with picture of <br>the kind of flags you want</p>
-                        <div class="flex">
-                            <p class="font-extrabold text-lg text-red-500 -mt-5">Price - $22.00</p>
-                        <img src="Images/Frame2.svg" alt="" class="ml-5 -mt-5">
-                        <p class=" -mt-5">Delivery Fee : Free</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div>
+                  <div class="bg-gray-100 mr-40 rounded-lg ">
                     <div class="flex flex-row items-center">
                       <img src="Images/7.png" class="max-w-sm rounded-lg shadow-2xl" />
-                      <div class="">
+                      <div class="pb-20">
                         <div class="flex">
                             <img src="Images/Frame.png" alt="">
                             <p>5.0</p>
@@ -168,10 +170,10 @@
                       </div>
                     </div>
                   </div>
-                  <div>
+                  <div class="bg-gray-100 mr-40 rounded-lg ">
                     <div class="flex flex-row items-center">
                       <img src="Images/8.png" class="max-w-sm rounded-lg shadow-2xl" />
-                      <div class="">
+                      <div class="pb-20">
                         <div class="flex">
                             <img src="Images/Frame.png" alt="">
                             <p>5.0</p>
@@ -188,10 +190,10 @@
                       </div>
                     </div>
                   </div>
-                  <div>
+                  <div class="bg-gray-100 mr-40 rounded-lg ">
                     <div class="flex flex-row items-center">
                       <img src="Images/9.png" class="max-w-sm rounded-lg shadow-2xl" />
-                      <div class="">
+                      <div class="pb-20">
                         <div class="flex">
                             <img src="Images/Frame.png" alt="">
                             <p>5.0</p>
@@ -208,10 +210,10 @@
                       </div>
                     </div>
                   </div>
-                  <div>
+                  <div class="bg-gray-100 mr-40 rounded-lg ">
                     <div class="flex flex-row items-center">
                       <img src="Images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
-                      <div class="">
+                      <div class="pb-20">
                         <div class="flex">
                             <img src="Images/Frame.png" alt="">
                             <p>5.0</p>
@@ -231,8 +233,94 @@
             </div>
         </section>
         <!--Our-New-Products-Sections-Ending-->
+        <!--Get-In-Touch-Section-->
+        <section>
+            <div>
+                <h3 class="font-extrabold text-3xl text-center">Get In Touch</h3>
+                <p class="font-medium text-base text-center">Here is our newsletter section <br>If you want to give us some feedback please fill the form. </p>
+            </div>
+            <div class="grid">
+                <div class="ml-40 mt-32">
+                    <div class="w-96 shadow-xl bg-green-50 mb-10 ">
+                        <figure class="ml-10"><img src="Images/Group 1171275317.png" alt="" /></figure>
+                        <div class="card-body">
+                          <p class="">Phone Number : <span class="font-bold"><b><br>(+62) 123-321-543</b></span></p>
+                        </div>
+                      </div>
+                      <div class="w-96 shadow-xl bg-yellow-50 mb-10">
+                        <figure class="ml-10"><img src="Images/Group 1171275318.png" alt="" /></figure>
+                        <div class="card-body">
+                          <p class="">Email : <span class="font-bold"><b><br>hockeys@support.com</b></span></p>
+                        </div>
+                      </div>
+                      <div class="w-96 shadow-xl bg-blue-50">
+                        <figure class="ml-10"><img src="Images/Group 1171275321.png" alt="" /></figure>
+                        <div class="card-body">
+                          <p class="">Location : <span class="font-bold"><br>152/1 Mohakhali Wireless Gate</span></p>
+                        </div>
+                      </div>
+                </div>
+                <div class="grid grid-cols-2 grid-rows-2 ml-96 left-96 mt-16 gap-5 absolute">
+                    <div>
+                        <h4 class="font-bold text-xl ">Your Name</h4>
+                        <input type="text" placeholder="Enter your full name" class="input w-full max-w-xs bg-gray-100 mb-10" />
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-xl ">Your Email</h4>
+                        <input type="text" placeholder="Enter your email" class="input w-full max-w-xs bg-gray-100 mb-10" />
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-xl ">Subject</h4>
+                        <input type="text" placeholder="Enter your subject" class="input w-full max-w-xs bg-gray-100" />
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-xl ">Phone Number</h4>
+                        <input type="text" placeholder="Enter your phonenumber" class="input w-full max-w-2xl bg-gray-100" />
+                    </div>
+                </div>
+                <h4 class="font-bold text-xl absolute mt-72 left-96 ml-96">Message</h4>
+                <textarea placeholder="Write your message" rows="10" class="rounded-lg  bg-gray-100 mx-96 absolute mt-80 ml-96 left-96 w-1/4 mb-20" ></textarea>
+            </div>
+            <div class="bg-yellow-50">
+                <h4 class="font-bold text-2xl ">Social Media</h4>
+                <img src="Images/Social.svg" alt="" class="">
+            </div>
+        </section>
+        <!--Get-In-Touch-Section-Ending-->
     </main>
-    <footer>
-    </footer>
+        <footer class="footer p-10 bg-neutral text-neutral-content ">
+            <nav>
+            <h3 class="font-extrabold text-3xl">Get In Touch</h3>
+            <p>Dit amet consectetur. Condimentum <br>adipiscing aliquam turpis placerat dolor. Purus <br>urna in sit nullam proin. </p>
+            <div class="flex">
+                <img src="Images/Frame (1).png" alt="">
+                <p>hockeys@support.com</p>
+            </div>
+            <div class="flex gap-5">
+            <img src="Images/Frame (2).png" alt="">
+            <p>(+62) 123-321-543</p>
+            </div>
+            </nav>
+            <nav>
+              <header class="footer-title">Services</header> 
+              <a class="link link-hover">Branding</a>
+              <a class="link link-hover">Design</a>
+              <a class="link link-hover">Marketing</a>
+              <a class="link link-hover">Advertisement</a>
+            </nav> 
+            <nav>
+              <header class="footer-title">Company</header> 
+              <a class="link link-hover">About us</a>
+              <a class="link link-hover">Contact</a>
+              <a class="link link-hover">Jobs</a>
+              <a class="link link-hover">Press kit</a>
+            </nav> 
+            <nav>
+              <header class="footer-title">Legal</header> 
+              <a class="link link-hover">Terms of use</a>
+              <a class="link link-hover">Privacy policy</a>
+              <a class="link link-hover">Cookie policy</a>
+            </nav>
+          </footer>
 </body>
 </html>
